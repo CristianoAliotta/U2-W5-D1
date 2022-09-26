@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap");
+body {
+  margin: 0;
+  font-family: "Cinzel", serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header {
+  width: 100%;
+  height: 35vh;
+  background: rgb(6, 131, 14);
+  background: linear-gradient(24deg, rgba(6, 131, 14, 1) 14%, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 1) 60%, rgba(255, 13, 13, 1) 82%);
+}
+img {
+  width: 60%;
+  height: 35vh;
+}
+#banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+#container {
+  margin-top: 3vh;
+  width: 600px;
+  height: 205px;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid green;
+  border-radius: 10%;
+  overflow: hidden;
+  flex-direction: column;
+  display: flex;
+}
+#full-time {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(36, 36, 223);
+  color: whitesmoke;
+  text-align: center;
+}
+#date {
+  font-size: 2.5rem;
+  font-variant: small-caps;
+}
+h2 {
+  margin-bottom: 2px;
+  font-variant: small-caps;
+  margin-top: 4px;
+}
+#details-container {
+  display: flex;
+  height: 100px;
+}
+.details {
+  width: 34%;
+  height: 100px;
+  background-color: rgb(254, 254, 254);
+  text-align: end;
+  color: rgb(0, 0, 0);
+  border: 3px solid green;
+}
+.details h2 {
+  margin-top: 2px;
+  margin-right: 20px;
+}
+.details h3 {
+  font-size: 3.5rem;
+  margin-top: 0;
+  margin-right: 20px;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(187, 187, 187);
+}
+#train {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
+h4 {
+  font-size: larger;
+}
